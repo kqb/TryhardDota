@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<matches>
+    <match>
+        <id>1</id>
+        <hero>bane</hero>
+        <item1>134</item1>
+        <item2>137</item2>
+        <item3>19</item3>
+        <item4>14</item4>
+        <item5>84</item5>
+        <item6>0</item6>
+        <duration>0:36:72</duration>
+    </match>
+
+    <match>
+        <id>2</id>
+        <hero>axe</hero>
+        <item1>41</item1>
+        <item2>32</item2>
+        <item3>51</item3>
+        <item4>22</item4>
+        <item5>0</item5>
+        <item6>0</item6>
+        <duration>0:36:42</duration>
+    </match>
+
+    <match>
+        <id>3</id>
+        <hero>qop</hero>
+        <item1>41</item1>
+        <item2>32</item2>
+        <item3>51</item3>
+        <item4>22</item4>
+        <item5>55</item5>
+        <item6>176</item6>
+        <duration>0:22:52</duration>
+    </match>
+
+</matches>

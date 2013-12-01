@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="stats_types">
+        <item>Per Match Averages</item>
+        <item>Highest Records</item>
+    </string-array>
+    <string-array name="skill_brackets">
+        <item>All Skill Bracket</item>
+        <item>Normal</item>
+        <item>High</item>
+        <item>Very High</item>
+    </string-array>
+    <string-array name="input_types">
+        <item>Auto</item>
+        <item>Steam ID (STEAM_x:y:z)</item>
+        <item>Steam ID (numeric)</item>
+        <item>Custom URL</item>
+        <item>Steam Community URL</item>
+    </string-array>
+    <string-array name="account_selector_context_menu">
+        <item>delete</item>
+    </string-array>
+</resources>

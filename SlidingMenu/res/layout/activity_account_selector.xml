@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/account_selector_search_panel"
+            android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/relativeLayout"
+            android:layout_marginTop="150dp">
+
+            <RelativeLayout android:id="@id/account_selector_search_field" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" android:layout_marginBottom="8.0dip">
+
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/account_selector_search_buttons" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" android:layout_marginBottom="10.0dip" android:layout_below="@id/account_selector_search_field">
+                <Button android:textSize="@dimen/search_button_font_size" android:textColor="#ffb2b2b2" android:id="@id/btn_search" android:background="@drawable/playerbut" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SEARCH" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+
+                <EditText android:textSize="@dimen/search_button_font_size" android:textColor="#ffb2b2b2" android:id="@id/tf_login" android:layout_width="fill_parent" android:layout_height="wrap_content"
+                    android:hint="Please enter player ID" android:ems="10" android:singleLine="true"
+                    android:inputType="text" android:imeOptions="actionSearch"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="80dp" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/account_selector_search_result" android:background="@drawable/container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/account_selector_search_panel" android:layout_alignLeft="@id/account_selector_search_panel" android:layout_alignTop="@id/account_selector_search_panel" android:layout_alignRight="@id/account_selector_search_panel" android:layout_alignBottom="@id/account_selector_search_panel" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+            <TextView android:textSize="@dimen/search_button_font_size" android:textColor="#ff4f4f4f" android:gravity="center" android:id="@id/account_selector_debug_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip" android:text="Debug Text" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="@dimen/search_button_font_size" android:textColor="#ffa82018" android:gravity="center" android:id="@id/account_selector_cancel_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="Cancel" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+            <RelativeLayout android:id="@id/account_search_player_info" android:background="@drawable/container_result" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/account_selector_cancel_text" android:layout_below="@id/account_selector_debug_text">
+                <RelativeLayout android:id="@id/account_search_playerIcon_bg" android:background="@drawable/usericon_64" android:layout_width="78.0px" android:layout_height="78.0px" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+                    <ImageView android:id="@id/account_search_player_profileIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <Button android:id="@id/account_search_add_button" android:background="@drawable/add_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerInParent="true" android:onClick="handleAdd" style="?android:attr/buttonStyleSmall" />
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_toLeftOf="@id/account_search_add_button" android:layout_toRightOf="@id/account_search_playerIcon_bg" android:layout_centerVertical="true">
+                    <TextView android:textColor="#ffb2b2b2" android:id="@id/account_search_player_personaname" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="name" />
+                    <TextView android:textColor="#ffb2b2b2" android:id="@id/account_search_player_id" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="steamid: xxxxxxxxx" />
+                    <TextView android:textColor="#ffb2b2b2" android:id="@id/account_search_player_url" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="profileurl: xxxxxxxxxxx" />
+                </LinearLayout>
+            </RelativeLayout>
+            <ProgressBar android:id="@id/account_selector_spinning_circle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:background="@drawable/profile_container" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_below="@id/account_selector_search_panel" android:layout_centerHorizontal="true"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_alignParentTop="false"
+            android:id="@+id/relativeLayout">
+            <ListView android:id="@id/accountList" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="14.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="14.0dip" android:layout_marginBottom="14.0dip" android:divider="#ff131313" android:dividerHeight="15.0dip" android:layout_centerInParent="true" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:id="@+id/imageView"
+            android:layout_above="@+id/relativeLayout"
+            android:layout_toRightOf="@id/account_selector_search_result"
+            android:layout_marginLeft="100dp"
+            android:layout_marginBottom="60dp"
+            android:background="@drawable/dota2"
+            android:layout_marginRight="100dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
