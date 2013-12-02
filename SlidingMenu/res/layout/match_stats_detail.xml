@@ -4,9 +4,8 @@
     ImageView android:id="@id/matchstats_result" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/bar_win" android:scaleType="fitXY" android:layout_alignParentLeft="true" />
     <RelativeLayout android:id="@id/matchstats_rightPanel" android:background="@drawable/matches_container_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/matchstats_result">
         <RelativeLayout android:id="@id/matchstats_topBar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
-            <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ff4f4f4f" android:id="@id/matchstats_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="xxxxxxxxxxxxx" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+
             <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ffb2b2b2" android:id="@id/matchstats_victory_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Radiant Victory" android:layout_centerInParent="true" />
-            <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ff4f4f4f" android:id="@id/matchstats_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="xxxxxxxxxxxxx-xxxxxx" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
         </RelativeLayout>
         <RelativeLayout android:id="@id/matchstats_bottomBar" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
             <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ff4f4f4f" android:id="@id/matchstats_gamemode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="Mode" android:layout_alignParentLeft="true" />
@@ -20,7 +19,7 @@
                 <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ffb2b2b2" android:layout_gravity="center_horizontal" android:id="@id/matchstats_radiant_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="5.0dip" android:text="Radiant" />
                 <TableLayout android:id="@id/matchstats_playertable_radiant" android:layout_width="fill_parent" android:layout_height="wrap_content">
                     <TableRow android:id="@id/matchstats_playertable_row_labels_radiant" android:layout_width="fill_parent" android:layout_height="wrap_content">
-                        <TextView android:layout_gravity="center" android:layout_width="30.0px" android:layout_height="30.0px" android:layout_marginRight="3.0dip" />
+
                         <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ff4f4f4f" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="Player" />
                         <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ff4f4f4f" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="Hero" />
                         <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ff4f4f4f" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="K" />
@@ -35,7 +34,7 @@
                         <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ff4f4f4f" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Items" />
                     </TableRow>
                     <include android:id="@id/playertable_radiant_row1" layout="@layout/match_stats_player_entry" />
-                    <include android:id="@id/playertable_radiant_row2" layout="@layout/match_stats_player_entry" />
+                    <include android:id="@id/playertable_radiant_row2" layout="@layout/match_stats_player_entry1" />
                     <include android:id="@id/playertable_radiant_row3" layout="@layout/match_stats_player_entry" />
                     <include android:id="@id/playertable_radiant_row4" layout="@layout/match_stats_player_entry" />
                     <include android:id="@id/playertable_radiant_row5" layout="@layout/match_stats_player_entry" />
@@ -43,7 +42,7 @@
                 <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ffb2b2b2" android:layout_gravity="center_horizontal" android:id="@id/matchstats_dire_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="5.0dip" android:text="Dire" />
                 <TableLayout android:id="@id/matchstats_playertable_dire" android:layout_width="fill_parent" android:layout_height="wrap_content">
                     <TableRow android:id="@id/matchstats_playertable_row_labels_dire" android:layout_width="fill_parent" android:layout_height="wrap_content">
-                        <TextView android:layout_gravity="center" android:layout_width="30.0px" android:layout_height="30.0px" android:layout_marginRight="3.0dip" />
+
                         <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ff4f4f4f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="Player" />
                         <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ff4f4f4f" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="Hero" />
                         <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ff4f4f4f" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="K" />

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip">
+        <RelativeLayout android:id="@id/playerentry_player_icon_bg" android:background="@drawable/usericon_32" android:layout_width="40.0px" android:layout_height="44.0px" android:layout_centerVertical="true">
+            <ImageView android:id="@id/playerentry_player_icon" android:layout_width="32.0px" android:layout_height="32.0px" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/playerentry_player_icon_bg" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ffb2b2b2" android:ellipsize="end" android:id="@id/playerentry_player_name" android:layout_width="@dimen/matches_details_playername_length" android:layout_height="wrap_content" android:text="Smelly Cat" android:singleLine="true" android:layout_alignParentLeft="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="center" android:layout_width="@dimen/player_matches_details_hero_width" android:layout_height="wrap_content" android:layout_marginRight="3.0dip">
+
+        <ImageView android:id="@id/playerentry_hero_icon_overlay" android:layout_width="wrap_content" android:layout_height="@dimen/player_matches_details_hero_height" android:src="@drawable/Skywrath_Mage" android:adjustViewBounds="true" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ffb2b2b2" android:layout_gravity="center" android:id="@id/playerentry_kills" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="5"
+        android:singleLine="true" />
+    <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ffb2b2b2" android:layout_gravity="center" android:id="@id/playerentry_deaths" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="5" />
+    <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ffb2b2b2" android:layout_gravity="center" android:id="@id/playerentry_assists" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="25" />
+    <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ffb2b2b2" android:layout_gravity="center" android:id="@id/playerentry_levels" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="21" />
+
+    <TextView
+        android:textSize="@dimen/player_matches_details_font_size"
+        android:textColor="#ffb2b2b2"
+        android:layout_gravity="center"
+        android:id="@id/playerentry_gold"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5.0dip"
+        android:text="1.1k" />
+
+    <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ffb2b2b2" android:layout_gravity="center" android:id="@id/playerentry_CS" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="99" />
+    <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ffb2b2b2" android:layout_gravity="center" android:id="@id/playerentry_deny" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="1" />
+    <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ffb2b2b2" android:layout_gravity="center" android:id="@id/playerentry_xpm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="434" />
+    <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ffb2b2b2" android:layout_gravity="center" android:id="@id/playerentry_gpm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="281" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/playerentry_items" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/playerentry_items_item1" android:layout_width="wrap_content" android:layout_height="@dimen/matches_details_item_height" android:adjustViewBounds="true"
+                android:src="@drawable/assault" />
+            <ImageView android:id="@id/playerentry_items_item2" android:layout_width="wrap_content" android:layout_height="@dimen/matches_details_item_height" android:adjustViewBounds="true"
+                android:src="@drawable/arcane_boots" />
+            <ImageView android:id="@id/playerentry_items_item3" android:layout_width="wrap_content" android:layout_height="@dimen/matches_details_item_height" android:adjustViewBounds="true"
+                android:src="@drawable/bracer" />
+            <ImageView android:id="@id/playerentry_items_item4" android:layout_width="wrap_content" android:layout_height="@dimen/matches_details_item_height" android:adjustViewBounds="true"
+                android:src="@drawable/bracer" />
+            <ImageView android:id="@id/playerentry_items_item5" android:layout_width="wrap_content" android:layout_height="@dimen/matches_details_item_height" android:adjustViewBounds="true"
+                android:src="@drawable/platemail" />
+            <ImageView android:id="@id/playerentry_items_item6" android:layout_width="wrap_content" android:layout_height="@dimen/matches_details_item_height" android:adjustViewBounds="true" />
+        </LinearLayout>
+    </LinearLayout>
+</TableRow>
