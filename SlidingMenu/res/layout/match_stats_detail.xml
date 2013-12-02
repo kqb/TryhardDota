@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
+  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:focusable="false">
     ImageView android:id="@id/matchstats_result" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/bar_win" android:scaleType="fitXY" android:layout_alignParentLeft="true" />
     <RelativeLayout android:id="@id/matchstats_rightPanel" android:background="@drawable/matches_container_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/matchstats_result">
         <RelativeLayout android:id="@id/matchstats_topBar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">

@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentManager;
+import android.content.pm.ActivityInfo;
 import android.content.res.Configuration;
 import android.content.res.TypedArray;
 import android.os.Bundle;
@@ -42,8 +43,10 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
-		mTitle = mDrawerTitle = getTitle();
+
+        mTitle = mDrawerTitle = getTitle();
 
 		// load slide menu items
 		navMenuTitles = getResources().getStringArray(R.array.nav_drawer_items);
@@ -65,11 +68,11 @@ public class MainActivity extends Activity {
 		// Photos
 		navDrawerItems.add(new NavDrawerItem(navMenuTitles[2], navMenuIcons.getResourceId(2, -1)));
 		// Communities, Will add a counter here
-		navDrawerItems.add(new NavDrawerItem(navMenuTitles[3], navMenuIcons.getResourceId(3, -1), true, "22"));
+		navDrawerItems.add(new NavDrawerItem(navMenuTitles[3], navMenuIcons.getResourceId(3, -1)));
 		// Pages
 		navDrawerItems.add(new NavDrawerItem(navMenuTitles[4], navMenuIcons.getResourceId(4, -1)));
-		// What's hot, We  will add a counter here
-		navDrawerItems.add(new NavDrawerItem(navMenuTitles[5], navMenuIcons.getResourceId(5, -1), true, "50+"));
+//		// What's hot, We  will add a counter here
+//		navDrawerItems.add(new NavDrawerItem(navMenuTitles[5], navMenuIcons.getResourceId(5, -1)));
 		
 
 		// Recycle the typed array
@@ -173,10 +176,10 @@ public class MainActivity extends Activity {
 			fragment = new ComparisonFragment();
 			break;
 		case 3:
-			fragment = new PlayersFragment();
+			fragment = new DotapediaFragment();
 			break;
 		case 4:
-			fragment = new DotapediaFragment();
+			fragment = new ProfileFragment();
 			break;
 		case 5:
 			fragment = new ProfileFragment();
@@ -190,7 +193,7 @@ public class MainActivity extends Activity {
         if (fragment != null) {
             FragmentManager fragmentManager = getFragmentManager();
             fragmentManager.beginTransaction()
-                    .replace(R.id.frame_container, fragment).addToBackStack( "tag" ).commit();
+                    .replace(R.id.frame_container, fragment).addToBackStack("tag").commit();
 
             // update selected item and title, then close the drawer
             mDrawerList.setItemChecked(position, true);
