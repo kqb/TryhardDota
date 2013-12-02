@@ -5,14 +5,22 @@
     <RelativeLayout android:id="@id/matchstats_rightPanel" android:background="@drawable/matches_container_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/matchstats_result">
         <RelativeLayout android:id="@id/matchstats_topBar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
 
-            <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ffb2b2b2" android:id="@id/matchstats_victory_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Radiant Victory" android:layout_centerInParent="true" />
+            <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ffffff" android:id="@id/matchstats_victory_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Radiant Victory"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:textSize="@dimen/player_matches_details_font_size"
+                android:textColor="#ffffff"
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Duration:"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true" />
         </RelativeLayout>
         <RelativeLayout android:id="@id/matchstats_bottomBar" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
-            <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ff4f4f4f" android:id="@id/matchstats_gamemode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="Mode" android:layout_alignParentLeft="true" />
-            <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ff4f4f4f" android:id="@id/matchstats_dash" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" android:text=" - " android:layout_toRightOf="@id/matchstats_gamemode" />
-            <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ff4f4f4f" android:id="@id/matchstats_skill" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Skill Bracket" android:layout_toRightOf="@id/matchstats_dash" />
-            <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ff4f4f4f" android:id="@id/matchstats_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Duration" android:layout_centerInParent="true" />
-            <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ff4f4f4f" android:id="@id/matchstats_lobbytype" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="Type" android:layout_alignParentRight="true" />
+
         </RelativeLayout>
         <ScrollView android:orientation="horizontal" android:id="@id/matchstats_centerBar" android:background="@drawable/matches_container_fg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/matchstats_bottomBar" android:layout_below="@id/matchstats_topBar">
             <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
@@ -61,8 +69,21 @@
                     <include android:id="@id/playertable_dire_row3" layout="@layout/match_stats_player_entry7" />
                     <include android:id="@id/playertable_dire_row4" layout="@layout/match_stats_player_entry8" />
                     <include android:id="@id/playertable_dire_row5" layout="@layout/match_stats_player_entry9" />
+                    <Button
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="Watch Replay"
+                        android:id="@+id/button"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true" />
                 </TableLayout>
             </LinearLayout>
         </ScrollView>
+
+
+
     </RelativeLayout>
+
 </RelativeLayout>
