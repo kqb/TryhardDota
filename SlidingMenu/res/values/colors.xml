@@ -7,5 +7,5 @@
     <color name="blue">#ff1a5470</color>
     <color name="red_death">#ff872b2b</color>
     <color name="orange_assists">#ffc1641f</color>
-    <color name="blue_kills">#ff206e93</color>
+    <color name="blue_kills">#ff206e93</color><color name="lose">#FF0000</color><color name="lose2">#FF6666</color>
 </resources>

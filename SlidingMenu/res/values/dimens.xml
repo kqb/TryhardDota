@@ -15,6 +15,6 @@
     <dimen name="matches_loading_icon_margin">15.0dip</dimen>
     <dimen name="player_matches_details_button_size">30.0px</dimen>
     <dimen name="player_matches_details_hero_width">61.0px</dimen>
-    <dimen name="player_matches_details_hero_height">39.0px</dimen>
+    <dimen name="player_matches_details_hero_height">39.0px</dimen><dimen name="eee">12.0dp</dimen><dimen name="aaa">10sp</dimen>
 
 </resources>

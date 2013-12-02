@@ -7,23 +7,23 @@
         android:layout_alignParentLeft="true">
         <RelativeLayout android:id="@id/matchlist_topBar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
             <TextView android:textSize="@dimen/player_matches_font_size" android:textColor="#ffffff" android:id="@id/matchlist_matchId" android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:text="WIN"
+                android:text="LOSE"
                 android:textIsSelectable="true"
                 android:layout_alignParentTop="true"
-                android:layout_alignParentLeft="true" />
+                android:layout_alignParentLeft="true"
+                android:singleLine="true" />
         </RelativeLayout>
-        <RelativeLayout android:id="@id/matchlist_centerBar" android:background="#106614" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/matchlist_topBar" android:layoutMode="opticalBounds"
-            android:clickable="false">
-            <TextView android:textSize="@dimen/eee" android:textColor="#ffb2b2b2" android:ellipsize="end" android:id="@id/matchlist_heroName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Queen of Pain" android:singleLine="true" android:layout_toRightOf="@id/matchlist_heroImg" android:layout_centerVertical="true"
+        <RelativeLayout android:id="@id/matchlist_centerBar" android:background="#66201b" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/matchlist_topBar" android:layoutMode="opticalBounds">
+            <TextView android:textSize="@dimen/eee" android:textColor="#ffb2b2b2" android:ellipsize="end" android:id="@id/matchlist_heroName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Lion" android:singleLine="true" android:layout_toRightOf="@id/matchlist_heroImg" android:layout_centerVertical="true"
                 android:autoText="false" />
             <ImageView android:id="@id/matchlist_heroImg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="2.0dip" android:adjustViewBounds="true" android:maxWidth="59.0dip" android:layout_alignTop="@id/matchlist_heroName" android:layout_alignBottom="@id/matchlist_heroName" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
             <ImageView android:id="@id/matchlist_heroImg_overlay" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/hero_overlay" android:layout_alignLeft="@id/matchlist_heroImg" android:layout_alignTop="@id/matchlist_heroImg" android:layout_alignRight="@id/matchlist_heroImg" android:layout_alignBottom="@id/matchlist_heroImg" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
-            <TextView android:textSize="@dimen/aaa" android:textColor="@color/orange_assists" android:id="@id/matchlist_assists" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="A: 12" android:layout_alignParentRight="true" android:layout_centerVertical="true"
+            <TextView android:textSize="@dimen/aaa" android:textColor="@color/orange_assists" android:id="@id/matchlist_assists" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="A: 10" android:layout_alignParentRight="true" android:layout_centerVertical="true"
                 android:phoneNumber="true" />
             <View android:id="@id/matchlist_divider1" android:background="#ffb2b2b2" android:layout_width="2.0dip" android:layout_height="@dimen/player_matches_font_size" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_toLeftOf="@id/matchlist_assists" android:layout_centerVertical="true" />
-            <TextView android:textSize="@dimen/aaa" android:textColor="@color/red_death" android:id="@id/matchlist_deaths" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="D: 2" android:layout_toLeftOf="@id/matchlist_divider1" android:layout_centerVertical="true" />
+            <TextView android:textSize="@dimen/aaa" android:textColor="@color/red_death" android:id="@id/matchlist_deaths" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="D: 6" android:layout_toLeftOf="@id/matchlist_divider1" android:layout_centerVertical="true" />
             <View android:id="@id/matchlist_divider2" android:background="#ffb2b2b2" android:layout_width="2.0dip" android:layout_height="@dimen/player_matches_font_size" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_toLeftOf="@id/matchlist_deaths" android:layout_centerVertical="true" />
-            <TextView android:textSize="@dimen/aaa" android:textColor="@color/blue_kills" android:id="@id/matchlist_kills" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="K: 24" android:layout_toLeftOf="@id/matchlist_divider2" android:layout_centerVertical="true"
+            <TextView android:textSize="@dimen/aaa" android:textColor="@color/blue_kills" android:id="@id/matchlist_kills" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="K: 4" android:layout_toLeftOf="@id/matchlist_divider2" android:layout_centerVertical="true"
                 android:singleLine="false" />
 
             <LinearLayout android:orientation="vertical" android:id="@id/matchlist_items" android:layout_width="wrap_content" android:layout_height="@dimen/player_matches_font_size_hero" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip" android:adjustViewBounds="true" android:layout_centerInParent="true" android:layoutMode="opticalBounds">
@@ -31,25 +31,25 @@
                 <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="0.0dip" android:adjustViewBounds="true" android:layout_weight="1.0" android:layoutMode="opticalBounds">
 
                     <ImageView
-                        android:layout_width="32dp"
-                        android:layout_height="19dp"
+                        android:layout_width="30dp"
+                        android:layout_height="15dp"
                         android:id="@+id/imageView"
-                        android:src="@drawable/Queen_of_Pain"
+                        android:src="@drawable/Lion"
                         android:layout_centerVertical="true"
                         android:layout_alignParentLeft="true" />
 
-                    <ImageView android:id="@id/matchlist_items_item1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/aegis" android:adjustViewBounds="true" />
-                    <ImageView android:id="@id/matchlist_items_item2" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/orchid" android:adjustViewBounds="true" />
-                    <ImageView android:id="@id/matchlist_items_item3" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/sphere" android:adjustViewBounds="true" />
-                    <ImageView android:id="@id/matchlist_items_item4" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/travel_boots" android:adjustViewBounds="true" />
-                    <ImageView android:id="@id/matchlist_items_item5" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/abyssal_blade" android:adjustViewBounds="true" />
-                    <ImageView android:id="@id/matchlist_items_item6" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/black_king_bar" android:adjustViewBounds="true" />
+                    <ImageView android:id="@id/matchlist_items_item1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/bottle" android:adjustViewBounds="true" />
+                    <ImageView android:id="@id/matchlist_items_item2" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/boots" android:adjustViewBounds="true" />
+                    <ImageView android:id="@id/matchlist_items_item3" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/bracer" android:adjustViewBounds="true" />
+                    <ImageView android:id="@id/matchlist_items_item4" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/mekansm" android:adjustViewBounds="true" />
+                    <ImageView android:id="@id/matchlist_items_item5" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/tpscroll" android:adjustViewBounds="true" />
+                    <ImageView android:id="@id/matchlist_items_item6" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ward_observer" android:adjustViewBounds="true" />
                 </LinearLayout>
             </LinearLayout>
         </RelativeLayout>
         <RelativeLayout android:id="@id/matchlist_bottomBar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/matchlist_centerBar">
 
-            <TextView android:textSize="@dimen/player_matches_font_size" android:textColor="#ffffff" android:id="@id/matchlist_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="DURATION: 0:53:24"
+            <TextView android:textSize="@dimen/player_matches_font_size" android:textColor="#ffffff" android:id="@id/matchlist_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="DURATION: 0:31:53"
                 android:phoneNumber="true"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentLeft="true" />
