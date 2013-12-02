@@ -6,17 +6,18 @@
 
             <RelativeLayout android:id="@id/playerstats_toprecords_label" android:background="@drawable/profile_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
                 <TextView android:textSize="35dp" android:textColor="#ffb2b2b2" android:layout_width="fill_parent" android:layout_height="wrap_content"
-                    android:text="Playername" android:layout_centerVertical="true"
+                    android:text="Cuddles" android:layout_centerVertical="true"
                     android:layout_marginLeft="80dp"
                     android:autoText="false"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:singleLine="false" />
 
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:id="@+id/imageView"
                     android:layout_alignParentLeft="true"
-                    android:src="@drawable/reaver"
+                    android:src="@drawable/cuddles"
                     android:maxHeight="80dp"
                     android:maxWidth="80dp"
                     android:layout_alignParentBottom="true"
@@ -36,20 +37,48 @@
                     android:textIsSelectable="true" />
             </RelativeLayout>
             <RelativeLayout android:id="@id/playerstats_overview_panel" android:background="@drawable/profile_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="15.0dip">
-                <TextView android:textSize="@dimen/player_stats_font_size" android:gravity="center" android:id="@id/playerstats_gametime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="TOTAL GAMES PLAYED: xxx - W xxx : L xxx" android:layout_alignParentTop="true"
-                    android:layout_centerHorizontal="true" />
+                <TextView android:textSize="@dimen/player_stats_font_size" android:gravity="center" android:id="@id/playerstats_gametime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="TOTAL GAMES PLAYED: 348 - W 186 : L 162" android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#ffffff" />
                 <LinearLayout android:orientation="horizontal" android:id="@id/playerstats_wlpanel" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/playerstats_gametime" android:layout_centerHorizontal="true">
+                    <TextView
+                        android:textSize="@dimen/player_stats_font_size"
+                        android:gravity="center"
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SKILL BRACKET\n Very High"
+                        android:layout_weight="1.0"
+                        android:textColor="#ffffff" />
+                    <View android:id="@id/matchlist_divider2" android:background="#ffb2b2b2" android:layout_width="2.0dip" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip"  android:layout_centerVertical="true" />
 
-                    <TextView android:textSize="@dimen/player_stats_font_size" android:gravity="center" android:id="@id/playerstats_wlratio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="WIN %\n--.-%" android:layout_weight="1.0" />
+                    <TextView
+                        android:textSize="@dimen/player_stats_font_size"
+                        android:gravity="center"
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="WIN %\n53.44%"
+                        android:layout_weight="1.0"
+                        android:textColor="#ffffff" />
+                    <View android:id="@id/matchlist_divider2" android:background="#ffb2b2b2" android:layout_width="2.0dip" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip"  android:layout_centerVertical="true" />
 
-                    <TextView android:textSize="@dimen/player_stats_font_size" android:gravity="center" android:id="@id/playerstats_losses" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="KDA%\n--.-%" android:layout_weight="1.0" />
+
+                    <TextView android:textSize="@dimen/player_stats_font_size"
+                        android:textColor="#ffffff" android:gravity="center" android:id="@id/playerstats_losses" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="KDA%\n3.75" android:layout_weight="1.0" />
                 </LinearLayout>
                 <LinearLayout android:orientation="horizontal" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/playerstats_wlpanel" android:layout_centerHorizontal="true">
-                    <TextView android:textSize="@dimen/player_stats_font_size" android:gravity="center" android:id="@id/playerstats_kills" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="KILLS\n----" android:layout_weight="1.0" />
+                    <TextView android:textSize="@dimen/player_stats_font_size"
+                        android:textColor="#ffffff" android:gravity="center" android:id="@id/playerstats_kills" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="KILLS\n3480" android:layout_weight="1.0" />
+                    <View android:id="@id/matchlist_divider2" android:background="#ffb2b2b2" android:layout_width="2.0dip" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip"  android:layout_centerVertical="true" />
 
-                    <TextView android:textSize="@dimen/player_stats_font_size" android:gravity="center" android:id="@id/playerstats_deaths" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="DEATHS\n----" android:layout_weight="1.0" />
+                    <TextView android:textSize="@dimen/player_stats_font_size"
+                        android:textColor="#ffffff" android:gravity="center" android:id="@id/playerstats_deaths" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="DEATHS\n2784" android:layout_weight="1.0" />
 
-                    <TextView android:textSize="@dimen/player_stats_font_size" android:gravity="center" android:id="@id/playerstats_assists" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ASSISTS\n----" android:layout_weight="1.0" />
+                    <View android:id="@id/matchlist_divider2" android:background="#ffb2b2b2" android:layout_width="2.0dip" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip"  android:layout_centerVertical="true" />
+
+                    <TextView android:textSize="@dimen/player_stats_font_size"
+                        android:textColor="#ffffff" android:gravity="center" android:id="@id/playerstats_assists" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ASSISTS\n4163" android:layout_weight="1.0" />
                 </LinearLayout>
             </RelativeLayout>
 
@@ -68,7 +97,7 @@
                     android:textColor="#ffb2b2b2"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="SUMMARY"
+                    android:text="PERFORMANCE OVER TIME"
                     android:layout_alignParentLeft="false"
                     android:layout_centerInParent="true"
                     android:layout_alignParentTop="false"
@@ -78,56 +107,259 @@
                     android:textIsSelectable="true" />
             </RelativeLayout>
 
-            <LinearLayout android:orientation="vertical" android:id="@id/playerstats_toprecords_panel" android:background="@drawable/profile_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="15.0dip">
-                <RelativeLayout android:id="@id/playerstats_max_kills_panel" android:background="@drawable/filter_item_dropdown" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="5.0dip">
-                    <TextView android:textSize="@dimen/player_stats_font_size" android:id="@id/playerstats_max_kills" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="most kills: xx" android:layout_centerVertical="true" />
-                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/gray_arrow_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
-                </RelativeLayout>
-                <RelativeLayout android:id="@id/playerstats_max_assists_panel" android:background="@drawable/filter_item_dropdown" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="5.0dip">
-                    <TextView android:textSize="@dimen/player_stats_font_size" android:id="@id/playerstats_max_assists" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="most assists: xx" android:layout_centerVertical="true" />
-                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/gray_arrow_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
-                </RelativeLayout>
-                <RelativeLayout android:id="@id/playerstats_max_deaths_panel" android:background="@drawable/filter_item_dropdown" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="5.0dip">
-                    <TextView android:textSize="@dimen/player_stats_font_size" android:id="@id/playerstats_max_deaths" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="most deaths: xx" android:layout_centerVertical="true" />
-                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/gray_arrow_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
-                </RelativeLayout>
-                <RelativeLayout android:id="@id/playerstats_max_cs_panel" android:background="@drawable/filter_item_dropdown" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="5.0dip">
-                    <TextView android:textSize="@dimen/player_stats_font_size" android:id="@id/playerstats_max_cs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="most cs: xx" android:layout_centerVertical="true" />
-                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/gray_arrow_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
-                </RelativeLayout>
-                <RelativeLayout android:id="@id/playerstats_max_denies_panel" android:background="@drawable/filter_item_dropdown" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="5.0dip">
-                    <TextView android:textSize="@dimen/player_stats_font_size" android:id="@id/playerstats_max_denies" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="most denies: xx" android:layout_centerVertical="true" />
-                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/gray_arrow_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
-                </RelativeLayout>
-                <RelativeLayout android:id="@id/playerstats_max_duration_panel" android:background="@drawable/filter_item_dropdown" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="5.0dip">
-                    <TextView android:textSize="@dimen/player_stats_font_size" android:id="@id/playerstats_max_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="longest match: xx" android:layout_centerVertical="true" />
-                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/gray_arrow_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
-                </RelativeLayout>
-                <RelativeLayout android:id="@id/playerstats_max_gpm_panel" android:background="@drawable/filter_item_dropdown" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="5.0dip">
-                    <TextView android:textSize="@dimen/player_stats_font_size" android:id="@id/playerstats_max_gpm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="highest gold per minute: xxx" android:layout_centerVertical="true" />
-                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/gray_arrow_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
-                </RelativeLayout>
-                <RelativeLayout android:id="@id/playerstats_max_xppm_panel" android:background="@drawable/filter_item_dropdown" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="5.0dip">
-                    <TextView android:textSize="@dimen/player_stats_font_size" android:id="@id/playerstats_max_xppm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="highest xp per minute: xxx" android:layout_centerVertical="true" />
-                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/gray_arrow_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
-                </RelativeLayout>
-                <RelativeLayout android:id="@id/playerstats_max_goldspent_panel" android:background="@drawable/filter_item_dropdown" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="5.0dip">
-                    <TextView android:textSize="@dimen/player_stats_font_size" android:id="@id/playerstats_max_goldspent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="highest gold spent: xxx" android:layout_centerVertical="true" />
-                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/gray_arrow_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
-                </RelativeLayout>
-                <RelativeLayout android:id="@id/playerstats_max_herodmg_panel" android:background="@drawable/filter_item_dropdown" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="5.0dip">
-                    <TextView android:textSize="@dimen/player_stats_font_size" android:id="@id/playerstats_max_herodmg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="highest hero damage: xxx" android:layout_centerVertical="true" />
-                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/gray_arrow_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
-                </RelativeLayout>
-                <RelativeLayout android:id="@id/playerstats_max_towerdmg_panel" android:background="@drawable/filter_item_dropdown" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="5.0dip">
-                    <TextView android:textSize="@dimen/player_stats_font_size" android:id="@id/playerstats_max_towerdmg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="highest tower damage: xxx" android:layout_centerVertical="true" />
-                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/gray_arrow_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
-                </RelativeLayout>
-                <RelativeLayout android:id="@id/playerstats_max_herohealing_panel" android:background="@drawable/filter_item_dropdown" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="15.0dip">
-                    <TextView android:textSize="@dimen/player_stats_font_size" android:id="@id/playerstats_max_herohealing" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="highest hero healing: xxx" android:layout_centerVertical="true" />
-                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/gray_arrow_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
-                </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/playerstats_toprecords_panel" android:background="@drawable/profile_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="15.0dip">
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:paddingTop="10.0dip"
+                    android:paddingBottom="10.0dip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/playerstats_wlpanel"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/linearLayout">
+
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView2"
+                        android:src="@drawable/graph" />
+                </LinearLayout>
+
             </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout2"
+                android:background="@drawable/tile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip"
+                android:layout_gravity="center_horizontal"
+                android:focusable="false"
+                android:clickable="false" >
+
+                <TextView
+                    android:textSize="18sp"
+                    android:textColor="#ffb2b2b2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RECORDS"
+                    android:layout_alignParentLeft="false"
+                    android:layout_centerInParent="true"
+                    android:layout_alignParentTop="false"
+                    android:layout_alignWithParentIfMissing="false"
+                    android:layout_alignParentRight="false"
+                    android:gravity="center"
+                    android:textIsSelectable="true" />
+            </RelativeLayout>
+
+            <LinearLayout android:orientation="vertical" android:id="@id/playerstats_toprecords_panel" android:background="@drawable/profile_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="15.0dip">
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:paddingTop="10.0dip"
+                    android:paddingBottom="10.0dip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/playerstats_wlpanel"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/linearLayout">
+
+
+                    <TextView
+                        android:textSize="@dimen/player_stats_font_size"
+                        android:gravity="center"
+                        android:id="@+id/textView10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="KILLS\n36"
+                        android:layout_weight="1.0"
+                        android:textColor="#ffffff" />
+
+                    <View android:id="@id/matchlist_divider2" android:background="#ffb2b2b2" android:layout_width="2.0dip" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip"  android:layout_centerVertical="true" />
+
+                    <TextView
+                        android:textSize="@dimen/player_stats_font_size"
+                        android:gravity="center"
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="DEATHS\n20"
+                        android:layout_weight="1.0"
+                        android:textColor="#ffffff"/>
+                    <View android:id="@id/matchlist_divider2" android:background="#ffb2b2b2" android:layout_width="2.0dip" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip"  android:layout_centerVertical="true" />
+
+
+                    <TextView
+                        android:textSize="@dimen/player_stats_font_size"
+                        android:gravity="center"
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ASSISTS\n34k"
+                        android:layout_weight="1.0"
+                        android:textColor="#ffffff"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:paddingTop="10.0dip"
+                    android:paddingBottom="10.0dip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/playerstats_wlpanel"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/linearLayout2d">
+
+                    \<TextView
+                    android:textSize="@dimen/player_stats_font_size"
+                    android:gravity="center"
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LAST HITS\n421"
+                    android:layout_weight="1.0"
+                    android:textColor="#ffffff"/>
+
+                    <View android:id="@id/matchlist_divider2" android:background="#ffb2b2b2" android:layout_width="2.0dip" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip"  android:layout_centerVertical="true" />
+
+                    <TextView
+                        android:textSize="@dimen/player_stats_font_size"
+                        android:gravity="center"
+                        android:id="@+id/textView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="DENIES\n23"
+                        android:layout_weight="1.0"
+                        android:textColor="#ffffff" />
+
+                    <View android:id="@id/matchlist_divider2" android:background="#ffb2b2b2" android:layout_width="2.0dip" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip"  android:layout_centerVertical="true" />
+
+                    <TextView
+                        android:textSize="@dimen/player_stats_font_size"
+                        android:gravity="center"
+                        android:id="@+id/textView11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="DAMAGE\n39.7k"
+                        android:layout_weight="1.0"
+                        android:textColor="#ffffff" />
+                    <View android:id="@id/matchlist_divider2" android:background="#ffb2b2b2" android:layout_width="2.0dip" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip"  android:layout_centerVertical="true" />
+
+
+
+                    <TextView
+                        android:textSize="@dimen/player_stats_font_size"
+                        android:gravity="center"
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="HEALING\n8968"
+                        android:layout_weight="1.0"
+                        android:textColor="#ffffff" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:paddingTop="10.0dip"
+                    android:paddingBottom="10.0dip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/playerstats_wlpanel"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/linearLayout">
+
+                    <TextView
+                        android:textSize="@dimen/player_stats_font_size"
+                        android:gravity="center"
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="DURATION\n1:15:30"
+                        android:layout_weight="1.0"
+                        android:textColor="#ffffff" />
+
+                    <View android:id="@id/matchlist_divider2" android:background="#ffb2b2b2" android:layout_width="2.0dip" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip"  android:layout_centerVertical="true" />
+
+                    <TextView
+                        android:textSize="@dimen/player_stats_font_size"
+                        android:gravity="center"
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GPM\n724"
+                        android:layout_weight="1.0"
+                        android:textColor="#ffffff" />
+
+                    <View android:id="@id/matchlist_divider2" android:background="#ffb2b2b2" android:layout_width="2.0dip" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip"  android:layout_centerVertical="true" />
+
+                    <TextView
+                        android:textSize="@dimen/player_stats_font_size"
+                        android:gravity="center"
+                        android:id="@+id/textView9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="XPM\n856"
+                        android:layout_weight="1.0"
+                        android:textColor="#ffffff" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout2"
+                android:background="@drawable/tile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip"
+                android:layout_gravity="center_horizontal"
+                android:focusable="false"
+                android:clickable="false" >
+
+                <TextView
+                    android:textSize="18sp"
+                    android:textColor="#ffb2b2b2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="MOST PLAYED HEROES"
+                    android:layout_alignParentLeft="false"
+                    android:layout_centerInParent="true"
+                    android:layout_alignParentTop="false"
+                    android:layout_alignWithParentIfMissing="false"
+                    android:layout_alignParentRight="false"
+                    android:gravity="center"
+                    android:textIsSelectable="true" />
+            </RelativeLayout>
+
+            <LinearLayout android:orientation="vertical" android:id="@id/playerstats_toprecords_panel" android:background="@drawable/profile_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="15.0dip">
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:paddingTop="10.0dip"
+                    android:paddingBottom="10.0dip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/playerstats_wlpanel"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/linearLayout">
+
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView3"
+                        android:src="@drawable/mph" />
+                </LinearLayout>
+            </LinearLayout>
+
+
 
             <LinearLayout android:orientation="horizontal" android:id="@id/playerstats_average_panel" android:background="@drawable/profile_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="15.0dip">
                 <TextView android:id="@id/playerstats_avg1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_weight="1.0" />
