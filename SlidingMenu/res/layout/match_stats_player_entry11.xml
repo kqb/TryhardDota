@@ -12,31 +12,31 @@
     </RelativeLayout>
     <RelativeLayout android:layout_gravity="center" android:layout_width="@dimen/player_matches_details_hero_width" android:layout_height="wrap_content" android:layout_marginRight="3.0dip">
         <ImageView android:id="@id/playerentry_hero_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:layout_alignLeft="@id/playerentry_hero_icon_overlay" android:layout_alignTop="@id/playerentry_hero_icon_overlay" android:layout_alignRight="@id/playerentry_hero_icon_overlay" android:layout_alignBottom="@id/playerentry_hero_icon_overlay" android:layout_centerInParent="true" />
-        <ImageView android:id="@id/playerentry_hero_icon_overlay" android:layout_width="wrap_content" android:layout_height="@dimen/player_matches_details_hero_height" android:src="@drawable/Skywrath_Mage" android:adjustViewBounds="true" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/playerentry_hero_icon_overlay" android:layout_width="wrap_content" android:layout_height="@dimen/player_matches_details_hero_height" android:src="@drawable/ember_spirit" android:adjustViewBounds="true" android:layout_centerInParent="true" />
     </RelativeLayout>
-    <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ffb2b2b2" android:layout_gravity="center" android:id="@id/playerentry_kills" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="3" />
-    <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ffb2b2b2" android:layout_gravity="center" android:id="@id/playerentry_deaths" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="10" />
-    <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ffb2b2b2" android:layout_gravity="center" android:id="@id/playerentry_assists" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="4" />
-    <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ffb2b2b2" android:layout_gravity="center" android:id="@id/playerentry_levels" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="15" />
-    <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ffb2b2b2" android:layout_gravity="center" android:id="@id/playerentry_gold" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="16.7k" />
-    <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ffb2b2b2" android:layout_gravity="center" android:id="@id/playerentry_CS" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="67" />
-    <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ffb2b2b2" android:layout_gravity="center" android:id="@id/playerentry_deny" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="4" />
-    <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ffb2b2b2" android:layout_gravity="center" android:id="@id/playerentry_xpm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="436" />
-    <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ffb2b2b2" android:layout_gravity="center" android:id="@id/playerentry_gpm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="331" />
+    <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ffb2b2b2" android:layout_gravity="center" android:id="@id/playerentry_kills" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="24" />
+    <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ffb2b2b2" android:layout_gravity="center" android:id="@id/playerentry_deaths" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="2" />
+    <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ffb2b2b2" android:layout_gravity="center" android:id="@id/playerentry_assists" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="12" />
+    <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ffb2b2b2" android:layout_gravity="center" android:id="@id/playerentry_levels" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="24" />
+    <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ffb2b2b2" android:layout_gravity="center" android:id="@id/playerentry_gold" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="21.8k" />
+    <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ffb2b2b2" android:layout_gravity="center" android:id="@id/playerentry_CS" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="177" />
+    <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ffb2b2b2" android:layout_gravity="center" android:id="@id/playerentry_deny" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="8" />
+    <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ffb2b2b2" android:layout_gravity="center" android:id="@id/playerentry_xpm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="578" />
+    <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ffb2b2b2" android:layout_gravity="center" android:id="@id/playerentry_gpm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="682" />
     <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/playerentry_items" android:layout_width="fill_parent" android:layout_height="wrap_content">
         <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
             <ImageView android:id="@id/playerentry_items_item1" android:layout_width="wrap_content" android:layout_height="@dimen/matches_details_item_height" android:adjustViewBounds="true"
-                android:src="@drawable/bottle" />
+                android:src="@drawable/bfury" />
             <ImageView android:id="@id/playerentry_items_item2" android:layout_width="wrap_content" android:layout_height="@dimen/matches_details_item_height" android:adjustViewBounds="true"
-                android:src="@drawable/null_talisman" />
+                android:src="@drawable/bfury" />
             <ImageView android:id="@id/playerentry_items_item3" android:layout_width="wrap_content" android:layout_height="@dimen/matches_details_item_height" android:adjustViewBounds="true"
-                android:src="@drawable/bracer" />
+                android:src="@drawable/bfury" />
             <ImageView android:id="@id/playerentry_items_item4" android:layout_width="wrap_content" android:layout_height="@dimen/matches_details_item_height" android:adjustViewBounds="true"
-                android:src="@drawable/boots" />
+                android:src="@drawable/travel_boots" />
             <ImageView android:id="@id/playerentry_items_item5" android:layout_width="wrap_content" android:layout_height="@dimen/matches_details_item_height" android:adjustViewBounds="true"
-                android:src="@drawable/tpscroll" />
+                android:src="@drawable/mjollnir" />
             <ImageView android:id="@id/playerentry_items_item6" android:layout_width="wrap_content" android:layout_height="@dimen/matches_details_item_height" android:adjustViewBounds="true"
-                android:src="@drawable/branches" />
+                android:src="@drawable/assault" />
         </LinearLayout>
         <LinearLayout android:orientation="horizontal" android:id="@id/playerentry_items_bear" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
             <ImageView android:id="@id/playerentry_items_bear_item1" android:layout_width="wrap_content" android:layout_height="@dimen/matches_details_item_height" android:adjustViewBounds="true" />

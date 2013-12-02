@@ -34,7 +34,7 @@
                         android:layout_width="30dp"
                         android:layout_height="15dp"
                         android:id="@+id/imageView"
-                        android:src="@drawable/Earth_Spirit"
+                        android:src="@drawable/skywrath_mage"
                         android:layout_centerVertical="true"
                         android:layout_alignParentLeft="true" />
 

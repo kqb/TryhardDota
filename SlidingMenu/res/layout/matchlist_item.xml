@@ -34,7 +34,7 @@
                         android:layout_width="32dp"
                         android:layout_height="19dp"
                         android:id="@+id/imageView"
-                        android:src="@drawable/Queen_of_Pain"
+                        android:src="@drawable/queen_of_pain"
                         android:layout_centerVertical="true"
                         android:layout_alignParentLeft="true" />
 

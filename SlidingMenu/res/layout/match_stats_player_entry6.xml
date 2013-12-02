@@ -7,12 +7,12 @@
             <ImageView android:id="@id/playerentry_player_icon" android:layout_width="32.0px" android:layout_height="32.0px" android:layout_centerInParent="true" />
         </RelativeLayout>
         <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/playerentry_player_icon_bg" android:layout_centerVertical="true">
-            <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ffb2b2b2" android:ellipsize="end" android:id="@id/playerentry_player_name" android:layout_width="@dimen/matches_details_playername_length" android:layout_height="wrap_content" android:text="Wiz" android:singleLine="true" android:layout_alignParentLeft="true" />
+            <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ffb2b2b2" android:ellipsize="end" android:id="@id/playerentry_player_name" android:layout_width="@dimen/matches_details_playername_length" android:layout_height="wrap_content" android:text="method" android:singleLine="true" android:layout_alignParentLeft="true" />
         </RelativeLayout>
     </RelativeLayout>
     <RelativeLayout android:layout_gravity="center" android:layout_width="@dimen/player_matches_details_hero_width" android:layout_height="wrap_content" android:layout_marginRight="3.0dip">
         <ImageView android:id="@id/playerentry_hero_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:layout_alignLeft="@id/playerentry_hero_icon_overlay" android:layout_alignTop="@id/playerentry_hero_icon_overlay" android:layout_alignRight="@id/playerentry_hero_icon_overlay" android:layout_alignBottom="@id/playerentry_hero_icon_overlay" android:layout_centerInParent="true" />
-        <ImageView android:id="@id/playerentry_hero_icon_overlay" android:layout_width="wrap_content" android:layout_height="@dimen/player_matches_details_hero_height" android:src="@drawable/Riki" android:adjustViewBounds="true" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/playerentry_hero_icon_overlay" android:layout_width="wrap_content" android:layout_height="@dimen/player_matches_details_hero_height" android:src="@drawable/riki" android:adjustViewBounds="true" android:layout_centerInParent="true" />
     </RelativeLayout>
     <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ffb2b2b2" android:layout_gravity="center" android:id="@id/playerentry_kills" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="13" />
     <TextView android:textSize="@dimen/player_matches_details_font_size" android:textColor="#ffb2b2b2" android:layout_gravity="center" android:id="@id/playerentry_deaths" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="5" />

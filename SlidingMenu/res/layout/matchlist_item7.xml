@@ -34,7 +34,7 @@
                         android:layout_width="30dp"
                         android:layout_height="15dp"
                         android:id="@+id/imageView"
-                        android:src="@drawable/Lion"
+                        android:src="@drawable/lion"
                         android:layout_centerVertical="true"
                         android:layout_alignParentLeft="true" />
 
