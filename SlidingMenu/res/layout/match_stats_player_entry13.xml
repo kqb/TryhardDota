@@ -37,7 +37,7 @@
             <ImageView android:id="@id/playerentry_items_item5" android:layout_width="wrap_content" android:layout_height="@dimen/matches_details_item_height" android:adjustViewBounds="true"
                 android:src="@drawable/heart" />
             <ImageView android:id="@id/playerentry_items_item6" android:layout_width="wrap_content" android:layout_height="@dimen/matches_details_item_height" android:adjustViewBounds="true"
-                android:src="@drawable/ward_observer" />
+                android:src="@drawable/spectre" />
         </LinearLayout>
         <LinearLayout android:orientation="horizontal" android:id="@id/playerentry_items_bear" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
             <ImageView android:id="@id/playerentry_items_bear_item1" android:layout_width="wrap_content" android:layout_height="@dimen/matches_details_item_height" android:adjustViewBounds="true" />

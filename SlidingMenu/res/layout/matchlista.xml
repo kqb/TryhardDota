@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#010000">
+
+    <ScrollView android:orientation="horizontal" android:id="@id/matchstats_centerBar" android:background="@drawable/matches_container_fg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/matchstats_bottomBar" android:layout_below="@id/matchstats_topBar">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TableLayout android:id="@id/matchstats_playertable_radiant" android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+                <include android:id="@id/matchlist_items" layout="@layout/matchlist_itema" />
+                <include android:id="@id/matchlist_items" layout="@layout/matchlist_item1" />
+                <include android:id="@id/matchlist_items" layout="@layout/matchlist_item2" />
+                <include android:id="@id/matchlist_items" layout="@layout/matchlist_item3" />
+                <include android:id="@id/matchlist_items" layout="@layout/matchlist_item4" />
+                <include android:id="@id/matchlist_items" layout="@layout/matchlist_item5" />
+                <include android:id="@id/matchlist_items" layout="@layout/matchlist_item6" />
+                <include android:id="@id/matchlist_items" layout="@layout/matchlist_item7" />
+
+
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

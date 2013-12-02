@@ -31,7 +31,7 @@
             <ImageView android:id="@id/playerentry_items_item2" android:layout_width="wrap_content" android:layout_height="@dimen/matches_details_item_height" android:adjustViewBounds="true"
                 android:src="@drawable/force_staff" />
             <ImageView android:id="@id/playerentry_items_item3" android:layout_width="wrap_content" android:layout_height="@dimen/matches_details_item_height" android:adjustViewBounds="true"
-                android:src="@drawable/ward_observer" />
+                android:src="@drawable/spectre" />
             <ImageView android:id="@id/playerentry_items_item4" android:layout_width="wrap_content" android:layout_height="@dimen/matches_details_item_height" android:adjustViewBounds="true"
                 android:src="@drawable/mekansm" />
             <ImageView android:id="@id/playerentry_items_item5" android:layout_width="wrap_content" android:layout_height="@dimen/matches_details_item_height" android:adjustViewBounds="true"
