@@ -82,121 +82,121 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="match_stats_player_entry7.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_player_entry7.xml">
-          <provider selected="true" editor-type-id="android-designer">
+      <file leaf-file-name="match_stats_detail6.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detail6.xml">
+          <provider editor-type-id="android-designer">
             <state />
           </provider>
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1064">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="68" column="48" selection-start="12983" selection-end="12983" vertical-scroll-proportion="-12.307693" vertical-offset="972" max-vertical-offset="1558">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="match_stats_detail1.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detail1.xml">
-          <provider selected="true" editor-type-id="android-designer">
+      <file leaf-file-name="match_stats_detail7.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detail7.xml">
+          <provider editor-type-id="android-designer">
             <state />
           </provider>
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1387">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="68" column="48" selection-start="12983" selection-end="12983" vertical-scroll-proportion="-12.307693" vertical-offset="972" max-vertical-offset="1558">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="match_stats_player_entry16.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_player_entry16.xml">
-          <provider selected="true" editor-type-id="android-designer">
+      <file leaf-file-name="match_stats_detaila.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detaila.xml">
+          <provider editor-type-id="android-designer">
             <state />
           </provider>
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1064">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="76" column="48" selection-start="11903" selection-end="11903" vertical-scroll-proportion="-9.384615" vertical-offset="1200" max-vertical-offset="1786">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="match_stats_player_entry15.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_player_entry15.xml">
-          <provider selected="true" editor-type-id="android-designer">
+      <file leaf-file-name="match_stats_detaila1.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detaila1.xml">
+          <provider editor-type-id="android-designer">
             <state />
           </provider>
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1064">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="76" column="49" selection-start="11904" selection-end="11904" vertical-scroll-proportion="-9.384615" vertical-offset="1200" max-vertical-offset="1786">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="match_stats_player_entry14.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_player_entry14.xml">
-          <provider selected="true" editor-type-id="android-designer">
+      <file leaf-file-name="match_stats_detaila2.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detaila2.xml">
+          <provider editor-type-id="android-designer">
             <state />
           </provider>
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1064">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="76" column="49" selection-start="11904" selection-end="11904" vertical-scroll-proportion="-9.384615" vertical-offset="1200" max-vertical-offset="1786">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="match_stats_player_entry12.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_player_entry12.xml">
-          <provider selected="true" editor-type-id="android-designer">
+      <file leaf-file-name="match_stats_detaila3.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detaila3.xml">
+          <provider editor-type-id="android-designer">
             <state />
           </provider>
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1045">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="76" column="49" selection-start="11904" selection-end="11904" vertical-scroll-proportion="-9.384615" vertical-offset="1200" max-vertical-offset="1786">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="match_stats_player_entry5.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_player_entry5.xml">
-          <provider selected="true" editor-type-id="android-designer">
+      <file leaf-file-name="match_stats_detaila4.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detaila4.xml">
+          <provider editor-type-id="android-designer">
             <state />
           </provider>
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1007">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="76" column="49" selection-start="11904" selection-end="11904" vertical-scroll-proportion="-9.384615" vertical-offset="1200" max-vertical-offset="1786">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="matchlist_item2.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/matchlist_item2.xml">
-          <provider selected="true" editor-type-id="android-designer">
+      <file leaf-file-name="match_stats_detaila5.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detaila5.xml">
+          <provider editor-type-id="android-designer">
             <state />
           </provider>
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1216">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="76" column="49" selection-start="11904" selection-end="11904" vertical-scroll-proportion="-9.384615" vertical-offset="1200" max-vertical-offset="1786">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="matchlist_item6.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/matchlist_item6.xml">
-          <provider selected="true" editor-type-id="android-designer">
+      <file leaf-file-name="match_stats_detaila6.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detaila6.xml">
+          <provider editor-type-id="android-designer">
             <state />
           </provider>
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1216">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="76" column="49" selection-start="11904" selection-end="11904" vertical-scroll-proportion="-9.384615" vertical-offset="1200" max-vertical-offset="1786">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="match_stats_detail.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detail.xml">
-          <provider selected="true" editor-type-id="android-designer">
+      <file leaf-file-name="match_stats_detaila7.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detaila7.xml">
+          <provider editor-type-id="android-designer">
             <state />
           </provider>
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1786">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="76" column="49" selection-start="11904" selection-end="11904" vertical-scroll-proportion="0.41638225" vertical-offset="1200" max-vertical-offset="1786">
               <folding />
             </state>
           </provider>
@@ -212,22 +212,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_player_entry11.xml" />
-        <option value="$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_player_entry12.xml" />
-        <option value="$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detail3.xml" />
-        <option value="$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_player_entry13.xml" />
-        <option value="$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detail4.xml" />
-        <option value="$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_player_entry14.xml" />
-        <option value="$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detail5.xml" />
-        <option value="$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_player_entry15.xml" />
-        <option value="$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detail6.xml" />
-        <option value="$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_player_entry16.xml" />
-        <option value="$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detail7.xml" />
-        <option value="$PROJECT_DIR$/SlidingMenu/res/layout/matchlist_itema.xml" />
-        <option value="$PROJECT_DIR$/SlidingMenu/res/layout/matchlista.xml" />
-        <option value="$PROJECT_DIR$/SlidingMenu/res/layout/matchlist_itema1.xml" />
-        <option value="$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_player_entry5.xml" />
         <option value="$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_player_entry7.xml" />
+        <option value="$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detail1.xml" />
+        <option value="$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detail2.xml" />
+        <option value="$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detail3.xml" />
+        <option value="$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detail4.xml" />
+        <option value="$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detail5.xml" />
+        <option value="$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detail6.xml" />
+        <option value="$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detail7.xml" />
+        <option value="$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detaila.xml" />
+        <option value="$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detaila1.xml" />
+        <option value="$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detaila2.xml" />
+        <option value="$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detaila3.xml" />
+        <option value="$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detaila4.xml" />
+        <option value="$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detaila5.xml" />
+        <option value="$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detaila6.xml" />
+        <option value="$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detaila7.xml" />
       </list>
     </option>
   </component>
@@ -263,8 +263,90 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dota" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Android API 19 Platform &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dota" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Android API 19 Platform &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dota" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Android API 19 Platform &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dota" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Android API 19 Platform &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="accessibilityservice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="dota" />
@@ -347,8 +429,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -359,7 +439,6 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.WIDTH" value="497" />
   </component>
   <component name="RunManager" selected="Android Application.SlidingMenu">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -522,12 +601,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329429" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -562,162 +641,162 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/matchlist.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="608">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detaila.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1786">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/matchlist_itema.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1216">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/matchlista.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="608">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/matchlist_itema1.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1235">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detaila7.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1786">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detail.xml">
-      <provider selected="true" editor-type-id="android-designer">
+      <provider editor-type-id="android-designer">
         <state />
       </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1786">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="51" selection-start="11895" selection-end="11895" vertical-scroll-proportion="-8.653846" vertical-offset="1219" max-vertical-offset="1805">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detail1.xml">
-      <provider selected="true" editor-type-id="android-designer">
+      <provider editor-type-id="android-designer">
         <state />
       </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1387">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="48" selection-start="12983" selection-end="12983" vertical-scroll-proportion="-12.307693" vertical-offset="972" max-vertical-offset="1558">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/matchlist_item2.xml">
-      <provider selected="true" editor-type-id="android-designer">
+    <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detail2.xml">
+      <provider editor-type-id="android-designer">
         <state />
       </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1216">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="48" selection-start="13126" selection-end="13126" vertical-scroll-proportion="-12.307693" vertical-offset="1086" max-vertical-offset="1672">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/matchlist_item6.xml">
-      <provider selected="true" editor-type-id="android-designer">
+    <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detail3.xml">
+      <provider editor-type-id="android-designer">
         <state />
       </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1216">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="48" selection-start="12983" selection-end="12983" vertical-scroll-proportion="-12.307693" vertical-offset="972" max-vertical-offset="1558">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_player_entry16.xml">
-      <provider selected="true" editor-type-id="android-designer">
+    <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detail4.xml">
+      <provider editor-type-id="android-designer">
         <state />
       </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1064">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="48" selection-start="12983" selection-end="12983" vertical-scroll-proportion="-12.307693" vertical-offset="972" max-vertical-offset="1558">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_player_entry15.xml">
-      <provider selected="true" editor-type-id="android-designer">
+    <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detail5.xml">
+      <provider editor-type-id="android-designer">
         <state />
       </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1064">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="48" selection-start="12983" selection-end="12983" vertical-scroll-proportion="-14.5" vertical-offset="915" max-vertical-offset="1558">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_player_entry14.xml">
-      <provider selected="true" editor-type-id="android-designer">
+    <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detail6.xml">
+      <provider editor-type-id="android-designer">
         <state />
       </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1064">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="48" selection-start="12983" selection-end="12983" vertical-scroll-proportion="-12.307693" vertical-offset="972" max-vertical-offset="1558">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_player_entry12.xml">
-      <provider selected="true" editor-type-id="android-designer">
+    <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detail7.xml">
+      <provider editor-type-id="android-designer">
         <state />
       </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1045">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="48" selection-start="12983" selection-end="12983" vertical-scroll-proportion="-12.307693" vertical-offset="972" max-vertical-offset="1558">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_player_entry5.xml">
-      <provider selected="true" editor-type-id="android-designer">
+    <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detaila.xml">
+      <provider editor-type-id="android-designer">
         <state />
       </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1007">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="48" selection-start="11903" selection-end="11903" vertical-scroll-proportion="-9.384615" vertical-offset="1200" max-vertical-offset="1786">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_player_entry7.xml">
-      <provider selected="true" editor-type-id="android-designer">
+    <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detaila1.xml">
+      <provider editor-type-id="android-designer">
         <state />
       </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1064">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="49" selection-start="11904" selection-end="11904" vertical-scroll-proportion="-9.384615" vertical-offset="1200" max-vertical-offset="1786">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detaila2.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="49" selection-start="11904" selection-end="11904" vertical-scroll-proportion="-9.384615" vertical-offset="1200" max-vertical-offset="1786">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detaila3.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="49" selection-start="11904" selection-end="11904" vertical-scroll-proportion="-9.384615" vertical-offset="1200" max-vertical-offset="1786">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detaila4.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="49" selection-start="11904" selection-end="11904" vertical-scroll-proportion="-9.384615" vertical-offset="1200" max-vertical-offset="1786">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detaila5.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="49" selection-start="11904" selection-end="11904" vertical-scroll-proportion="-9.384615" vertical-offset="1200" max-vertical-offset="1786">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detaila6.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="49" selection-start="11904" selection-end="11904" vertical-scroll-proportion="-9.384615" vertical-offset="1200" max-vertical-offset="1786">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SlidingMenu/res/layout/match_stats_detaila7.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="49" selection-start="11904" selection-end="11904" vertical-scroll-proportion="0.41638225" vertical-offset="1200" max-vertical-offset="1786">
           <folding />
         </state>
       </provider>

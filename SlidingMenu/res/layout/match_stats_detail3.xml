@@ -61,6 +61,15 @@
                     <include android:id="@id/playertable_dire_row3" layout="@layout/match_stats_player_entry7" />
                     <include android:id="@id/playertable_dire_row4" layout="@layout/match_stats_player_entry8" />
                     <include android:id="@id/playertable_dire_row5" layout="@layout/match_stats_player_entry9" />
+                    <Button
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="Watch Replay"
+                        android:id="@+id/button3"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true" />
                 </TableLayout>
             </LinearLayout>
         </ScrollView>

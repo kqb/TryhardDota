@@ -74,7 +74,7 @@
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:text="Watch Replay"
-                        android:id="@+id/button"
+                        android:id="@+id/buttona1"
                         android:layout_alignParentEnd="true"
                         android:layout_alignParentBottom="true"
                         android:layout_alignParentLeft="true" />
