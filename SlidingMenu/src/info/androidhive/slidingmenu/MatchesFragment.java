@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 
 import java.io.IOException;
@@ -16,32 +17,25 @@ import info.androidhive.slidingmenu.adapter.MatchListAdapter;
 import info.androidhive.slidingmenu.model.MatchlistItem;
 import info.androidhive.slidingmenu.parser.MatchParser;
 
-public class MatchesFragment extends ListFragment {
-	
-	public MatchesFragment(){}
-	
-	@Override
+public class MatchesFragment extends Fragment {
+
+    public MatchesFragment(){}
+
+    @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState){
+                             Bundle savedInstanceState) {
 
-        MatchListAdapter adapter = null;
-        ListView listView;
+        View rootView = inflater.inflate(R.layout.matchlist, container, false);
+        Button button = (Button) rootView.findViewById(R.id.matchlistitem);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
 
-        super.onActivityCreated(savedInstanceState);
-        View myFragmentView = inflater.inflate(R.layout.matchlist, container, false);
+            }
+        });
 
-        listView = (ListView) myFragmentView.findViewById(android.R.id.list);
-        List<MatchlistItem> matches = null;
-        try {
-            MatchParser parser = new MatchParser();
-            matches = parser.parse(getActivity().getAssets().open("matchlist.xml"));
-            adapter = new MatchListAdapter(getActivity().getApplicationContext(), matches);
 
-            listView.setAdapter(adapter);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return myFragmentView;
+        return rootView;
     }
 
 }

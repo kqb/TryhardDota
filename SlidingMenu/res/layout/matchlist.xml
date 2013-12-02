@@ -9,7 +9,14 @@
         <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
             <TableLayout android:id="@id/matchstats_playertable_radiant" android:layout_width="fill_parent" android:layout_height="wrap_content">
 
-                <include android:id="@id/matchlist_items" layout="@layout/matchlist_item" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <include android:id="@id/matchlist_items" layout="@layout/matchlist_item" />
+                </LinearLayout>
+
                 <include android:id="@id/matchlist_items" layout="@layout/matchlist_item1" />
                 <include android:id="@id/matchlist_items" layout="@layout/matchlist_item2" />
                 <include android:id="@id/matchlist_items" layout="@layout/matchlist_item3" />
