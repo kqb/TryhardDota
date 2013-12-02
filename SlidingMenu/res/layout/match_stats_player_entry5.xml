@@ -32,7 +32,7 @@
             <ImageView android:id="@id/playerentry_items_item3" android:layout_width="wrap_content" android:layout_height="@dimen/matches_details_item_height" android:adjustViewBounds="true"
                 android:src="@drawable/power_treads" />
             <ImageView android:id="@id/playerentry_items_item4" android:layout_width="wrap_content" android:layout_height="@dimen/matches_details_item_height" android:adjustViewBounds="true"
-                android:src="@drawable/Skeleton_King" />
+                android:src="@drawable/javelin" />
             <ImageView android:id="@id/playerentry_items_item5" android:layout_width="wrap_content" android:layout_height="@dimen/matches_details_item_height" android:adjustViewBounds="true" />
             <ImageView android:id="@id/playerentry_items_item6" android:layout_width="wrap_content" android:layout_height="@dimen/matches_details_item_height" android:adjustViewBounds="true" />
         </LinearLayout>
